@@ -1,0 +1,16 @@
+.idea
+
+docker/**/.ipynb_checkpoints
+
+docker/**/output
+
+**/__pycache__
+
+*.pyc
+
+airflow.cfg
+airflow.db
+
+unittests.cfg
+
+logs
