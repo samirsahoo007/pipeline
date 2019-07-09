@@ -26,3 +26,4 @@ add_to_dataset_task = PythonOperator(task_id='add_to_dataset', python_callable=a
 # define the relationship between the tasks using set_downstream
 web_scrape_task.set_downstream(pdf_scrape_task)
 pdf_scrape_task.set_downstream(add_to_dataset_task)
+
